@@ -44,21 +44,16 @@ const colors: object = {
   black: '#000',
 };
 
-const fontSizes: object = {};
+const fontSizes: object = {}; // 하람
 
-const fontWeights: object = {};
+const fontWeights: object = {}; // 하람
 
-const shadows: object = {};
+const shadows: object = {}; //성제
 
-const fontFamily: object = {};
+const buttonStyle: object = {}; //성제
 
-const radius: object = {};
+const fontFamily: object = {}; //한결
 
-const buttonStyle: object = {
-  small: css`
-    padding: 6px 8px;
-    font-size: 10px;
-  `,
-}; //성제
+const radius: object = {}; //한결
 
 export { colors, color };
