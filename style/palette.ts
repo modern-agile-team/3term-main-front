@@ -32,14 +32,14 @@ const colors: object = {
   // successDark: '#05A660',
   // successLight: '#39D98A',
   // successSubtle: '#57EBA1',
-  'gray-dark1': '#4F4E5C',
-  'gray-dark2': '#84838D',
-  'gray-dark3': '#A7A7AD',
-  'gray-dark4': '#CACACE',
-  'gray-light1': '#E7E7E8',
-  'gray-light2': '#EDEDEF',
-  'gray-light3': '#F5F5F5',
-  'gray-light4': '#F9F9F9',
+  grayDark1: '#4F4E5C',
+  grayDark2: '#84838D',
+  grayDark3: '#A7A7AD',
+  grayDark4: '#CACACE',
+  grayLight1: '#E7E7E8',
+  grayLight2: '#EDEDEF',
+  grayLight3: '#F5F5F5',
+  grayLight4: '#F9F9F9',
   white: '#fff',
   black: '#000',
 };
@@ -96,8 +96,23 @@ const shadows: object = {}; //성제
 
 const buttonStyle: object = {}; //성제
 
-const fontFamily: object = {}; //한결
+const fontFamily: object = {
+  // injectGlobal 에 적용 실패
+};
 
-const radius: object = {}; //한결
+const radius: object = {
+  5: css`
+    border-radius: 5px;
+  `,
+  6: css`
+    border-radius: 6px;
+  `,
+  24: css`
+    border-radius: 24px;
+  `,
+  circle: css`
+    border-radius: 50%;
+  `,
+}; //한결
 
 export { colors, color, fontSizes, fontWeights };
