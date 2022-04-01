@@ -44,13 +44,29 @@ const colors: object = {
   black: '#000',
 };
 
-const fontSizes: object = {}; // 하람
+const fontSizes: object = {
+  '10': '10px',
+  '12': '12px',
+  '14': '14px',
+  '16': '16px',
+  '18': '18px',
+  '20': '20px',
+  '22': '22px',
+  '24': '24px',
+  '28': '28px',
+  '36': '36px',
+  '44': '44px',
+};
 
-const fontWeights: object = {}; // 하람
+const fontWeights: object = {
+  light: '300',
+  normal: '400',
+  bold: '700',
+};
 
 const shadows: object = {}; //성제
 
-const buttonStyle: object = {}; //성제
+const buttonStyle: object = {}; //성제
 
 const fontFamily: object = {}; //한결
 
