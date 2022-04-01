@@ -44,16 +44,60 @@ const colors: object = {
   black: '#000',
 };
 
-const fontSizes: object = {}; // 하람
+const fontSizes: object = {
+  10: css`
+    font-size: 10px;
+  `,
+  12: css`
+    font-size: 12px;
+  `,
+  14: css`
+    font-size: 14px;
+  `,
+  16: css`
+    font-size: 16px;
+  `,
+  18: css`
+    font-size: 18px;
+  `,
+  20: css`
+    font-size: 20px;
+  `,
+  22: css`
+    font-size: 22px;
+  `,
+  24: css`
+    font-size: 24px;
+  `,
+  28: css`
+    font-size: 28px;
+  `,
+  36: css`
+    font-size: 36px;
+  `,
+  44: css`
+    font-size: 44px;
+  `,
+};
 
-const fontWeights: object = {}; // 하람
+const fontWeights: object = {
+  light: css`
+    font-weight: 300;
+  `,
+  normal: css`
+    font-weight: 400;
+  `,
+  bold: css`
+    font-weight: 700;
+  `,
+};
 
 const shadows: object = {}; //성제
 
-const buttonStyle: object = {}; //성제
+const buttonStyle: object = {}; //성제
 
 const fontFamily: object = {}; //한결
 
 const radius: object = {}; //한결
 
-export { colors, color };
+export { colors, color, fontSizes, fontWeights };
