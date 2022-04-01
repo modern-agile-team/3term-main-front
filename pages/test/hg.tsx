@@ -3,7 +3,7 @@ import { cx, css } from '@emotion/css';
 import { Global } from '@emotion/react';
 
 const styles = css`
-  @font-face {
+  /* @font-face {
     font-family: 'Noto Sans KR';
     src: url('/fonts/NotoSansKR-Black.otf') format('otf'),
       url('/fonts/NotoSansKR-Bold.otf') format('otf'),
@@ -12,7 +12,7 @@ const styles = css`
       url('/fonts/NotoSansKR-Regular.otf') format('otf'),
       url('/fonts/NotoSansKR-Thin.otf') format('otf');
     unicode-range: U+AC00-D7A3;
-  }
+  } */
   * {
     font-size: 50px;
   }
