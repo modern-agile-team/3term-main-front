@@ -115,4 +115,4 @@ const radius: object = {
   `,
 }; //한결
 
-export { colors, color, fontSizes, fontWeights };
+export { colors, color, fontSizes, fontWeights, radius };
