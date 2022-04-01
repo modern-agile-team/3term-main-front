@@ -1,5 +1,6 @@
 import type { AppProps } from 'next/app';
 import { injectGlobal, css, cx } from '@emotion/css';
+import styled from '@emotion/styled';
 import { colors, color } from '../style/palette';
 import Button from '../components/button/Button';
 
@@ -17,24 +18,7 @@ injectGlobal`
 `;
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <>
-      {/* <div>
-        <Button style={'all'}>12</Button>
-      </div>
-      <br />
-      <Button style={'border'}>12</Button>
-      <br />
-      <Button>12</Button> */}
-      <div>
-        <Button all>12</Button>
-      </div>
-      <br />
-      <Button border>12</Button>
-      <br />
-      <Button>12</Button>
-    </>
-  );
+  return <Component {...pageProps} />;
 
   // 2. 배경 넘기고, 텍스트 넘긴다
   // color.back(색깔)
