@@ -11,7 +11,7 @@ const color: object = {
     `,
 };
 
-const colors: object = {
+const colors: obj = {
   main: '#ff445e',
   dark: '#D12A41',
   lighter: '#FFA1AF',
@@ -94,7 +94,25 @@ const fontWeights: object = {
 
 const shadows: object = {}; //성제
 
-const buttonStyle: object = {}; //성제
+const buttonStyle: object = {
+  style1: css`
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px rgba(132, 131, 141, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  `,
+  style4: css`
+    box-shadow: 0px 0px 8px rgba(132, 131, 141, 0.5);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  `,
+}; //성제
 
 const fontFamily: object = {
   // injectGlobal 에 적용 실패
@@ -115,4 +133,4 @@ const radius: object = {
   `,
 }; //한결
 
-export { colors, color, fontSizes, fontWeights, radius };
+export { colors, color, fontSizes, fontWeights, radius, buttonStyle };
