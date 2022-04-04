@@ -1,10 +1,15 @@
 import type { AppProps } from 'next/app';
-import { css } from '@emotion/css';
+import { cx, css } from '@emotion/css';
+import Basic from '../../components/category/Basic';
+
+const styles = css`
+  font-size: 50px;
+`;
 
 function MyApp({}: AppProps) {
   return (
     <>
-      <div>asdf</div>{' '}
+      <Basic>{'카테고리'}</Basic>
     </>
   );
 }
