@@ -74,7 +74,7 @@ export default function Alarm(props: object) {
     disable: disable(),
   };
 
-  const finalStyle = Object.keys(props).map(attr => check[attr]);
+  const finalStyle = Object.keys(props).map((attr) => check[attr]);
 
   const result = (
     <button className={cx(...finalStyle)}>{props.children}</button>
