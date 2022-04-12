@@ -1,8 +1,8 @@
 import { css, cx } from '@emotion/css';
-import { buttonStyle, color, colors } from '../../../../style/palette';
+import { btnStyle, color, colors } from '../../../../style/palette';
 
 export default function Alarm(props: object) {
-  const commonStyle = buttonStyle.style4;
+  const commonStyle = btnStyle.square;
 
   const size = {
     big: css`
