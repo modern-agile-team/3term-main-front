@@ -10,7 +10,7 @@ const grid = css`
   align-items: center;
   grid-gap: 0.5px;
   grid-template-columns: repeat(24, 1fr);
-  background-color: #f9f9f9;
+  background-color: #f9f9f8;
 `;
 
 export default function Layout(props: object) {
